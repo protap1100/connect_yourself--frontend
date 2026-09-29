@@ -1,7 +1,7 @@
 import React from 'react'
 
 const BlogsLoader = () => {
-  return (
+  return (  
     <div>BlogsLoader</div>
   )
 }
