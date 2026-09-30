@@ -1,9 +1,9 @@
-import React from 'react'
+import { getBlogs } from "@/app/service/getBlogs";
+import React from "react";
 
-const AuthorPage = () => {
-  return (
-    <div>AuthorPage</div>
-  )
-}
+const AuthorPage = async () => {
+  
+  return <div>AuthorPage</div>;
+};
 
-export default AuthorPage
+export default AuthorPage;
