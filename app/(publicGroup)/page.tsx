@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 
-const NewsPage = () => {
+const HomePage = () => {
   return (
     <div>
-      NewsPage
+      HomePage
       <Button>Click me</Button>
     </div>
   );
 };
 
-export default NewsPage;
+export default HomePage;
