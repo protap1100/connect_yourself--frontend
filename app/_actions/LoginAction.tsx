@@ -29,7 +29,7 @@ export const loginAction = async (prevState: ActionState, formData: FormData): P
             body: JSON.stringify(payload)
         });
 
-        // Safe handling for non-JSON or HTTP error responses
+        // Safe handling for non-JSON or HTTP error
         if (!res.ok) {
             const errorText = await res.text();
             console.error("Backend response error:", errorText);
